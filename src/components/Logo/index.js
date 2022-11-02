@@ -37,14 +37,16 @@ const Logo = () => {
   // }, [])
 
   return (
-    <div className="logo-container" ref={bgRef}>
-      <img
-        className="solid-logo"
-        ref={solidLogoRef}
-        src={LogoS}
-        alt="JavaScript,  Developer"
-      />
-
+    <div>
+      <div className="logo-container">
+        <div className="svg-container">
+          <img
+            className="solid-logo"
+            src={LogoS}
+            alt="JavaScript,  Developer"
+          />
+        </div>
+      </div>
       {/* <svg
         width="559pt"
         height="897pt"

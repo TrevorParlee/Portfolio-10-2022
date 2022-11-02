@@ -6,12 +6,12 @@
     transform: translateY(-50%);
     width: 40%;
     max-height: 90%;
-    .logo-name {
-      height: 90px;
+    // .logo-name {
+    //   height: 90px;
 
-      width: auto;
-      z-index: -9999;
-    }
+    //   width: 25%;
+    //   z-index: -9999;
+    // }
   }
 
   h1 {
@@ -45,14 +45,14 @@
       opacity: 0.6;
     }
 
-    img {
-      margin-left: 20px;
-      opacity: 0;
-      width: 32px;
-      height: auto;
-      animation: rotateIn 1s linear both;
-      animation-delay: 1.4s;
-    }
+    // img {
+    //   margin-left: 20px;
+    //   opacity: 0;
+    //   width: 32px;
+    //   height: auto;
+    //   animation: rotateIn 1s linear both;
+    //   animation-delay: 1.4s;
+    // }
   }
 
   h2 {
@@ -110,21 +110,22 @@
 
   .logo-container {
     position: relative;
-    width: 100px;
+    width: 50%;
     height: auto;
     top: 50px;
     right: 0;
     box-sizing: border-box;
     margin: auto;
     left: 0;
+    opacity: 0.3;
   }
 
-  .logo-container svg {
-    position: absolute;
-    top: auto;
-    right: auto;
-    bottom: auto;
-    left: 0;
-    margin: auto;
-  }
+  // .logo-container svg {
+  //   position: absolute;
+  //   top: auto;
+  //   right: auto;
+  //   bottom: auto;
+  //   left: 0;
+  //   margin: auto;
+  // }
 }
